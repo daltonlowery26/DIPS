@@ -26,4 +26,6 @@ This repository hosts various piece of work in the steps to build a fully workin
 - then create a diffrent model to predict PA
 - then calculate batting run value (can you calc straight from wOBA or do you need a model?)
 - then add Def and BSR value
-- finally predicted WAR
+- need to predict std for each player season and project precentile outcomes
+- monte carlo simulation to find mean projected value
+- Predicted WAR
