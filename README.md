@@ -15,3 +15,15 @@ This repository hosts various piece of work in the steps to build a fully workin
 - Devlop XGBoost model to predict median outcome for each player season
 - Determine unqiue standard dev for each player season
 - Use a Monte Carlo simulation to capture such std
+
+### Model Plan 4/7 (very fluid)
+
+- I want to pull many regression methods together to try to find mean
+- xgboost model to predict mean preformance for player
+- use nearest neighbor to find closest 5 neighbors and then compare next season preformance
+- combine these two methods together with cleaver weighting to try to find a mean (need to create mult models for each bc of lack of stat avial)
+- only use these two models to predict rate stats, not PA, Def, or BSR
+- then create a diffrent model to predict PA
+- then calculate batting run value (can you calc straight from wOBA or do you need a model?)
+- then add Def and BSR value
+- finally predicted WAR
