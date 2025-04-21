@@ -1,10 +1,16 @@
 # MLB Hitter Modeling
 
-## -- Project Status: Active
-
 ## Project Intro/Objective
 
 This repository hosts various piece of work in the steps to build a fully working MLB player model similar to ZIPS. Various expoloratory steps need to be taken first before the model is made.
+
+## Tools Used
+
+- K-nearest Neighbors
+- K-means Clustering
+- PCA
+- Xgboost
+- Pandas
 
 ## Roadmap
 
@@ -21,6 +27,7 @@ This repository hosts various piece of work in the steps to build a fully workin
 - Split into seven diffrent parts:
   - PA Model
   - WRC+ Model
+  - Aging Curve
   - BsR Model
   - Def Model
   - Standard Dev Predection
