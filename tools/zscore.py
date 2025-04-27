@@ -8,7 +8,6 @@ def normalize(input_df):
         raise ValueError(f"Input DataFrame must contain columns: {required_cols}")
     
     def mean_year(group):
-        # Added error handling for PA weights
         weights = group.index.map(lambda x: input_df.loc[x, 'PA'])
         if (weights <= 0).any():
             weights = None  # Fall back to unweighted if invalid PA values
@@ -16,7 +15,6 @@ def normalize(input_df):
         return avg
 
     def calculate_weighted_std(group):
-        # Added error handling for PA weights
         weights = group.index.map(lambda x: input_df.loc[x, 'PA'])
         if (weights <= 0).any():
             weights = None  # Fall back to unweighted if invalid PA values
