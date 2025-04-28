@@ -43,3 +43,7 @@ This repository hosts various piece of work in the steps to build a fully workin
 - BSR / Def (fluid)
   - much less complex
   - might just be a simple regression of publicly avial. stats and age
+
+### Predection .xlsx
+
+- first (somewhat) complete wrc+ preds 4/28 <https://1drv.ms/x/s!Ah37nJdV9LPsnYAK0rF9-LlZAxz4TA?e=k3gxIU>
