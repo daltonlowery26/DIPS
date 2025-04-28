@@ -2,7 +2,7 @@
 
 ## Project Intro/Objective
 
-This repository hosts various piece of work in the steps to build a fully working MLB player model similar to ZIPS. Various expoloratory steps need to be taken first before the model is made.
+This repository hosts various piece of work in the steps to build a fully working MLB player model similar to ZIPS. This is an indepentent project done for my own enjoyment and exploration. 
 
 ## Roadmap
 
@@ -44,6 +44,7 @@ This repository hosts various piece of work in the steps to build a fully workin
   - much less complex
   - might just be a simple regression of publicly avial. stats and age
 
-### Predection .xlsx
+### Note
 
-- first (somewhat) complete wrc+ preds 4/28 <https://1drv.ms/x/s!Ah37nJdV9LPsnYAK0rF9-LlZAxz4TA?e=k3gxIU>
+- Final Predections in final_preds folder
+- Reachout to <dalton.lowery@emory.edu> with questions or comments!
