@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd 
 
+# same as the previous z_score function but it doesnt include PA, usefull for taking weighted avg.
 def normalize(input_df):
     # Verify input_df has required columns
     required_cols = ['Season', 'Name', 'PA']

@@ -2,11 +2,19 @@
 
 ## Project Intro/Objective
 
-This repository hosts various piece of work in the steps to build a fully working MLB player model similar to ZIPS. This is an indepentent project done for my own enjoyment and exploration. 
+This repository hosts various piece of work in the steps to build a fully working MLB player model similar to ZIPS. This is an indepentent project done for my own enjoyment and exploration. Currently, only WRC+ projections for players that played in the MLB in 2024 are completed. I am working to add WAR projections as well as projections for players that have yet to play.
 
-## Roadmap
+### Folder Structure
 
-### Broad Steps to be taken
+- major_leauge_preds | all data and models relating to MLB player projections.
+  - data | all data, cleaned and uncleaned, for models
+  - final_preds | wrc+ predections for each model iteration
+  - predections | models used to predict various stats
+  - predicted_data | indiv. predections created by each model for each stat
+- minor_leauge_preds | in progress, minor leauge to MLB translations
+  - data | all data cleaned and uncleaned use
+
+### Broad Roadmap
 
 - Exploring aging curves for the various stats of intrest
 - Use K-Nearest Neighbor to find similar seasons and compare outcomes
@@ -29,13 +37,14 @@ This repository hosts various piece of work in the steps to build a fully workin
   - weighted average of predicted values based on preformance of models
   - fed back to WRC+ models
 - WRC+ Model
-  - three xgboost models without PA Data
+  - three xgboost models
     - seperated based on data avail (02, 15, 23)
+    - projected next_year pa fed to model
   - three nearest neighbor models split the same way
-  - indiv. model predections, combinded with expected PA feed to xgboost model
-  - predections are averged based on indiv. model preformance
-  - applied basic aging curves based on player preformance change season to season
-  - centered predections around 100 (mean wrc+)
+  - predections from each model are averaged then centered around 100
+  - basic aging curve applied to each player
+  - predections are regressed to mean
+
 - Aging Curves
   - explored using clustering to find smaller aging trends
   - did not preform any better
