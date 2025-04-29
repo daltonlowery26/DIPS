@@ -22,7 +22,7 @@ This repository hosts various piece of work in the steps to build a fully workin
 - Determine unqiue standard dev for each player season
 - Use a Monte Carlo simulation to capture such std
 
-### DIPS (4/27)
+### DIPS (4/29)
 
 - Split into five diffrent parts:
   - PA Model
