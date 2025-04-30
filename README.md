@@ -1,5 +1,9 @@
 # MLB Hitter Modeling
 
+## Note
+
+All 2025 predections (wRC+, PA, Aging, Def, BsR, WAR), will be in final predections folder in the top level of the file structure.
+
 ## Project Intro/Objective
 
 This repository hosts various piece of work in the steps to build a fully working MLB player model similar to ZIPS. This is an indepentent project done for my own enjoyment and exploration. Currently, only WRC+ projections for players that played in the MLB in 2024 are completed. I am working to add WAR projections as well as projections for players that have yet to play.
@@ -53,7 +57,6 @@ This repository hosts various piece of work in the steps to build a fully workin
   - much less complex
   - might just be a simple regression of publicly avial. stats and age
 
-### Note
+### Contact
 
-- Final Predections in final_preds folder
 - Reachout to <dalton.lowery@emory.edu> with questions or comments!
