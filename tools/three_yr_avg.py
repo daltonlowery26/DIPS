@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 
 # three year avg of data
-
 def three_year_avg(df):
     combined_rows = []
     numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
